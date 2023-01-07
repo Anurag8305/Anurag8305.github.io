@@ -39,9 +39,10 @@
 	transition: var(--color-primary-variant);
 }
 .about__card:hover {
-	background: transparent;
+	/* background: transparent; */
 	border-color: var(--color-primary-variant);
 	cursor: default;
+	transform: scale(1.2);
 }
 .about__icon {
 	color: var(--color-primary);

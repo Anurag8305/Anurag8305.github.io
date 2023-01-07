@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
+import CV from "../../Images/Anurag_Raj_Resume.pdf";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -34,26 +34,26 @@ const Navbar = () => {
 				</div>
 			</a>
 			<a
-				href="#experience"
-				onClick={() => setActiveNav("#experience")}
-				className={activeNav === "#experience" ? "active" : ""}
+				href="#skills"
+				onClick={() => setActiveNav("#skills")}
+				className={activeNav === "#skills" ? "active" : ""}
 			>
 				<div>
-					<div>Experience</div>
+					<div>Skills</div>
 					<div>
 						<BiBook />
 					</div>
 				</div>
 			</a>
 			<a
-				href="#services"
-				onClick={() => setActiveNav("#services")}
-				className={activeNav === "#services" ? "active" : ""}
+				href="#projects"
+				onClick={() => setActiveNav("#projects")}
+				className={activeNav === "#projects" ? "active" : ""}
 			>
 				<div>
-					<div>Services</div>
+					<div>Projects</div>
 					<div>
-						<RiServiceLine />
+						<BiMessageSquareDetail />
 					</div>
 				</div>
 			</a>
@@ -68,6 +68,15 @@ const Navbar = () => {
 						<BiMessageSquareDetail />
 					</div>
 				</div>
+			</a>
+			<a
+				href="https://drive.google.com/file/d/14Eevapd093j_Z99KcEJhGimARpqGtVou/view?usp=share_link"
+				target={"_blank"}
+				download
+			>
+				<button className="btn btn-primary" download>
+				RESUME
+				</button>
 			</a>
 		</nav>
 	);

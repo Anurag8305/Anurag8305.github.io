@@ -29,8 +29,13 @@
 	display: flex;
 	gap: 1rem;
 }
+.experience__details:hover {
+	transform: scale(1.5);
+	transition: smooth;
+}
 .experience__details-icon {
-	margin-top: 6px;
+	font-size: 30px;
+	margin-top: 4px;
 	color: var(--color-primary);
 }
 
@@ -51,10 +56,10 @@
 
 /* MEDIA QUERIES FOR SMALL*/
 @media screen and (max-width: 600px) {
-	.experience__container{
+	.experience__container {
 		gap: 1rem;
 	}
-	.experience__container >div{
+	.experience__container > div {
 		width: 100%;
 		padding: ;
 	}

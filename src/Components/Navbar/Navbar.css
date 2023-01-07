@@ -12,8 +12,9 @@ nav {
 	gap: 0.8rem;
 	border-radius: 3rem;
 	backdrop-filter: blur(15px);
-	width: 90%;
-	justify-content: space-between;
+	/* width: 90%; */
+	margin: auto;
+	/* justify-content: space-between; */
 }
 nav a {
 	background: transparent;
@@ -33,4 +34,13 @@ nav a.active {
 nav a div {
 	justify-content: center;
 	text-align: center;
+}
+@media screen and (max-width: 600px) {
+	nav a div {
+		font-size: 0.4rem;
+	}
+	button {
+		size: 20px;
+		font-size: 10px;
+	}
 }

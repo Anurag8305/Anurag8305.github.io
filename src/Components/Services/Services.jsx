@@ -3,59 +3,10 @@ import "./Services.css";
 import { BsCheck } from "react-icons/bs";
 const Services = () => {
 	return (
-		<section id="services ">
+		<section id="myservice ">
 			<h5>What I Offer</h5>
 			<h2>Services</h2>
 			<div className="container services__container">
-				<article className="service">
-					<div className="service__head">
-						<h3>UI/UX Design</h3>
-					</div>
-					<ul className="service__list">
-						<li>
-							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
-						</li>
-						<li>
-							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
-						</li>
-						<li>
-							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
-						</li>
-						<li>
-							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
-						</li>
-						<li>
-							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
-						</li>
-						<li>
-							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
-						</li>
-					</ul>
-				</article>
 				<article className="service">
 					<div className="service__head">
 						<h3>Web Development</h3>
@@ -64,93 +15,51 @@ const Services = () => {
 						<li>
 							<BsCheck className="service__list-icon" />
 							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
+								Develop highly interactive User Interfaces and Backend for web
+								applications
 							</p>
 						</li>
 						<li>
 							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
+							<p>Building responsive website front end using ReactJS</p>
 						</li>
 						<li>
 							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
-						</li>
-						<li>
-							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
-						</li>
-						<li>
-							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
-						</li>
-						<li>
-							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
+							<p>Creating application backend in Node, Express.</p>
 						</li>
 					</ul>
 				</article>
 				<article className="service">
 					<div className="service__head">
-						<h3>Content Creation</h3>
+						<h3>Cloud Infra-Architecture</h3>
 					</div>
 					<ul className="service__list">
 						<li>
 							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
+							<p>Experience working on multiple cloud platforms</p>
 						</li>
 						<li>
 							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
+							<p>Experience hosting and managing websites</p>
 						</li>
 						<li>
 							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
+							<p>Experience with Continuous Integration</p>
+						</li>
+					</ul>
+				</article>
+				<article className="service">
+					<div className="service__head">
+						<h3>Logo Designing</h3>
+					</div>
+					<ul className="service__list">
+						<li>
+							<BsCheck className="service__list-icon" />
+							<p>Simple and classic logo designing</p>
 						</li>
 						<li>
 							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
-						</li>
-						<li>
-							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
-						</li>
-						<li>
-							<BsCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-								cupiditate.
-							</p>
+							<p>Platform independent but confident with Canva</p>
 						</li>
 					</ul>
 				</article>
