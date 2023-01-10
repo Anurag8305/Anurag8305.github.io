@@ -8,6 +8,7 @@ import { VscFolderLibrary } from "react-icons/vsc";
 import CustomizedTimeline from "../Education/Education";
 import GithubCalender from "../GitHub/GithubCalender";
 import Stats from "../GitHub/Stats";
+
 const About = () => {
 	return (
 		<section id="about">
