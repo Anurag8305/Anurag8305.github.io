@@ -31,7 +31,10 @@ body {
 	background: var(--color-bg);
 	color: var(--color-white);
 	line-height: 1.7;
-	background-image: url(./Images/low-poly-grid-haikei\ \(2\).png);
+	background-image: url(./Images/wallpaperflare.com_wallpaper.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
 }
 
 /* Styles*/

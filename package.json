@@ -17,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-github-calendar": "^3.4.0",
     "react-icons": "^4.7.1",
+    "react-moving-text": "^0.0.7",
     "react-scripts": "5.0.1",
     "react-tooltip": "^4.5.1",
     "styled-components": "^5.3.6",
