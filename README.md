@@ -1,5 +1,6 @@
 # Anurag8305.github.io
 Hello Everyone, Myself Anurag Raj. This is the repo for my portfolio website that I have made. 
+You can fork and use the template to make your own website similar to this.
 Teck-Stacks=> React, CSS ,Material UI
 Deployed Link=>https://anurag8305.github.io/
 ![image](https://user-images.githubusercontent.com/106643486/212727071-da876750-e6e9-4d74-8258-4c57f68099ae.png)
