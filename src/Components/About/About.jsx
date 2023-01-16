@@ -11,7 +11,7 @@ import Stats from "../GitHub/Stats";
 
 const About = () => {
 	return (
-		<section id="about">
+		<section id="about" class="about section nav-link about">
 			<h5>Get To Know </h5>
 			<h2>About Me</h2>
 			<div className="container about__container">

@@ -2,13 +2,14 @@ import React from "react";
 import "./Navbar.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
+import { MdContactPhone } from "react-icons/md";
 import CV from "../../Images/Anurag_Raj_Resume.pdf";
 import { useState } from "react";
 
 const Navbar = () => {
 	const [activeNav, setActiveNav] = useState("#");
 	return (
-		<nav>
+		<nav id="nav-menu">
 			<a
 				href="#"
 				onClick={() => setActiveNav("#")}
@@ -65,7 +66,7 @@ const Navbar = () => {
 				<div>
 					<div>Contact</div>
 					<div>
-						<BiMessageSquareDetail />
+						<MdContactPhone />
 					</div>
 				</div>
 			</a>
@@ -75,7 +76,7 @@ const Navbar = () => {
 				download
 			>
 				<button className="btn btn-primary" download>
-				RESUME
+					RESUME
 				</button>
 			</a>
 		</nav>

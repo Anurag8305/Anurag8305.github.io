@@ -36,11 +36,25 @@ nav a div {
 	text-align: center;
 }
 @media screen and (max-width: 600px) {
+	nav {
+		/* width: 80%;
+		margin: auto;
+		justify-content: space-around; */
+		height: 80px;
+		justify-content: space-around;
+	}
 	nav a div {
-		font-size: 0.4rem;
+		font-size: 0rem;
 	}
 	button {
-		size: 20px;
-		font-size: 10px;
+		size: 15px;
+		font-size: 8px;
+		padding: 0;
+	}
+	nav a div:nth-child(1) {
+		content: "";
+	}
+	nav a div:nth-child(2) {
+		font-size: 15px;
 	}
 }

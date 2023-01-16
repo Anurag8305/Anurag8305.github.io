@@ -7,7 +7,7 @@ import { CiLocationOn } from "react-icons/ci";
 import MovingText from "react-moving-text";
 const Header = () => {
 	return (
-		<header>
+		<header id="home" class="nav-link home">
 			<div className="container header_container">
 				<h5>Hello I'm</h5>
 				<h1>Anurag Raj</h1>

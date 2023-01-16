@@ -34,7 +34,9 @@ body {
 	background-image: url(./Images/wallpaperflare.com_wallpaper.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 100%;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
 }
 
 /* Styles*/
@@ -120,4 +122,10 @@ img {
 		margin-top: 2rem;
 		padding: 2rem 1rem;
 	}
+	/* body {
+		background-image: url(./Images/wallpaperflare.com_wallpaper.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100vh;
+	} */
 }
