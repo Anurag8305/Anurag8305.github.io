@@ -5,13 +5,16 @@ import { SiGmail } from "react-icons/si";
 const HeaderSocials = () => {
 	return (
 		<div className="header__socials">
-			<a href="www.linkedin.com" target="_blank">
+			<a
+				href="https://www.linkedin.com/in/anurag-raj-809a82137/"
+				target="_blank"
+			>
 				<BsLinkedin />
 			</a>
-			<a href="www.github.com" target="_blank">
+			<a href="https://github.com/Anurag8305" target="_blank">
 				<BsGithub />
 			</a>
-			<a href="www.gmail.com" target="_blank">
+			<a href="anuragraj8305@gmail.com" target="_blank">
 				<SiGmail />
 			</a>
 		</div>

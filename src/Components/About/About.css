@@ -19,11 +19,7 @@
 .about__me-image {
 	border-radius: 2rem;
 	overflow: hidden;
-	transform: rotate(10deg);
-	transition: var(--transition);
-}
-.about__me-image:hover {
-	transform: rotate(0);
+	
 }
 .about__cards {
 	display: grid;
@@ -40,7 +36,7 @@
 }
 .about__card:hover {
 	/* background: transparent; */
-	border-color: var(--color-primary-variant);
+	/* border-color: var(--color-primary-variant); */
 	cursor: default;
 	transform: scale(1.2);
 }

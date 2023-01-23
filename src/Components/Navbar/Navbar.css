@@ -7,7 +7,7 @@ nav {
 	position: fixed;
 	left: 50%;
 	transform: translateX(-50%);
-	top: 1rem;
+	top: 0;
 	display: flex;
 	gap: 0.8rem;
 	border-radius: 2rem;
@@ -37,17 +37,18 @@ nav a div {
 }
 @media screen and (max-width: 600px) {
 	nav {
-		/* width: 80%;
+		width: 90%;
 		margin: auto;
-		justify-content: space-around; */
+		position: fixed;
 		height: 80px;
-		justify-content: space-around;
+		gap: 0.2rem;
+		justify-content: space-evenly;
 	}
 	nav a div {
 		font-size: 0rem;
 	}
 	button {
-		size: 15px;
+		size: 10px;
 		font-size: 8px;
 		padding: 0;
 	}
@@ -55,6 +56,6 @@ nav a div {
 		content: "";
 	}
 	nav a div:nth-child(2) {
-		font-size: 15px;
+		font-size: 25px;
 	}
 }

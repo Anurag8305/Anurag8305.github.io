@@ -14,16 +14,17 @@ const Portfolio = () => {
 							srcset=""
 						/>
 					</div>
-					<h3>Title of the project</h3>
+					<h3>Co-Commerce</h3>
 					<small>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-						repudiandae qui perspiciatis fugit suscipit expedita quae
-						repellendus delectus provident saepe, consectetur magnam assumenda
-						quisquam ipsam in doloribus exercitationem nesciunt beatae.
+					A clone of famous LimeRoad website.
+					A group project that is made during the time span of 5 days. Some
+	 				interresting features of the website are products page(men's and women's),
+					sorting functionality with price, single  product description page, cart functionality,
+					login and signup feature, private routing and admin panel.
 					</small>
-					<h4>Tech-Stacks: HTML | CSS | Javascript</h4>
+					<h4>Tech-Stacks: React | Chakra UI | CSS | JSON-Server</h4>
 					<div className="portfolio__item-cta">
-						<a href="github.com" className="btn" target={"_blank"}>
+						<a href="https://github.com/Anurag8305/-subdued-trip-4276" className="btn" target={"_blank"} rel="noreferrer">
 							GitHub
 						</a>
 						<a href="netfily.com" className="btn btn-primary" target={"_blank"}>
