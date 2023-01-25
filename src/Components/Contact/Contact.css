@@ -12,7 +12,7 @@
 .contact__option {
 	background: var(--color-bg-variant);
 	padding: 1.2rem;
-	border-radius: 1.2rem;
+	border-radius: 3rem 0 3rem 0;
 	text-align: center;
 	border: 1px solid transparent;
 	transition: var(--transition);

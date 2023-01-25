@@ -1,12 +1,12 @@
 .about__container {
 	display: grid;
-	grid-template-columns: 25% 65%;
+	grid-template-columns: 65% 25%;
 	gap: 10%;
 }
 .about__me {
 	width: 100%;
 	aspect-ratio: 1/1;
-	border-radius: 2rem;
+	border-radius: 50%;
 	background: linear-gradient(
 		45deg,
 		transparent,
@@ -29,7 +29,7 @@
 .about__card {
 	background: var(--color-bg-variant);
 	border: 1px solid transparent;
-	border-radius: 1rem;
+	border-radius: 3rem 0 3rem 0;
 	padding: 2rem;
 	text-align: center;
 	transition: var(--color-primary-variant);

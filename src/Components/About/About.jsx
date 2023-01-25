@@ -4,6 +4,7 @@ import ME from "../../Images/profile.png";
 import { FaAward, FaDatabase, FaGithub } from "react-icons/fa";
 import { BiCodeAlt } from "react-icons/bi";
 import { SiMusicbrainz } from "react-icons/si";
+import { GiFeather } from "react-icons/gi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import CustomizedTimeline from "../Education/Education";
 import GithubCalender from "../GitHub/GithubCalender";
@@ -13,15 +14,12 @@ const About = () => {
 	return (
 		<section id="about" class="about section nav-link about">
 			<h5>Get To Know </h5>
-			<h2>About Me</h2>
+			<h2>
+				About Me <GiFeather fontSize={"30px"} />
+			</h2>
 			<div className="container about__container">
-				<div className="about__me">
-					<div className="about__me-image">
-						<img src={ME} alt="about me" srcset="" />
-					</div>
-				</div>
 				<div className="about__content">
-					<div className="about__cards">
+					<div className="about__cards" data-aos="fade-right">
 						<article className="about__card">
 							<FaAward className="about__icon" />
 							<h5>Coding Experience</h5>
@@ -53,7 +51,7 @@ const About = () => {
 							<small>Over 350+ Commits</small>
 						</article>
 					</div>
-					<p>
+					<p data-aos="flip-left">
 						Hello! My name is Anurag Raj and I enjoy creating things that live
 						on the internet. I am a passionate Full Stack Web Developer, who is
 						proficient in working with interdisciplinary teams and executing
@@ -62,6 +60,11 @@ const About = () => {
 					<a href="#contact" className="btn btn-primary">
 						Grab a cup of Coffee and Chat with Me...
 					</a>
+				</div>
+				<div className="about__me" data-aos="fade-left">
+					<div className="about__me-image">
+						<img src={ME} alt="about me" srcset="" />
+					</div>
 				</div>
 			</div>
 			<h2>Education</h2>

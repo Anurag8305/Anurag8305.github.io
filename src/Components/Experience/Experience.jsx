@@ -16,6 +16,7 @@ import {
 	SiVercel,
 	SiNpm,
 	SiHeroku,
+	SiPostman,
 	SiGithubactions,
 } from "react-icons/si";
 const Experience = () => {
@@ -83,6 +84,10 @@ const Experience = () => {
 						<article className="experience__details">
 							<SiNpm className="experience__details-icon" />
 							<h4>NPM</h4>
+						</article>
+						<article className="experience__details">
+							<SiPostman className="experience__details-icon" />
+							<h4>Postman</h4>
 						</article>
 					</div>
 				</div>
