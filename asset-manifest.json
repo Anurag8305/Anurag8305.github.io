@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd56e03e.css",
-    "main.js": "/static/js/main.265e94c2.js",
+    "main.css": "/static/css/main.d40eb48b.css",
+    "main.js": "/static/js/main.5bccc5bc.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Project1.gif": "/static/media/Project1.53f4e8051cc07ab1f38f.gif",
     "static/media/wallpaperflare.com_wallpaper.jpg": "/static/media/wallpaperflare.com_wallpaper.ecce17214de8e1194ac9.jpg",
     "static/media/Anurag_Raj_Resume.pdf": "/static/media/Anurag_Raj_Resume.26790e3239b3b44e6399.pdf",
     "static/media/profile.png": "/static/media/profile.a7abf26d2c941149662f.png",
     "static/media/skills1.png": "/static/media/skills1.f1cd1a00a12095c9001a.png",
     "index.html": "/index.html",
-    "main.cd56e03e.css.map": "/static/css/main.cd56e03e.css.map",
-    "main.265e94c2.js.map": "/static/js/main.265e94c2.js.map",
+    "main.d40eb48b.css.map": "/static/css/main.d40eb48b.css.map",
+    "main.5bccc5bc.js.map": "/static/js/main.5bccc5bc.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd56e03e.css",
-    "static/js/main.265e94c2.js"
+    "static/css/main.d40eb48b.css",
+    "static/js/main.5bccc5bc.js"
   ]
 }
