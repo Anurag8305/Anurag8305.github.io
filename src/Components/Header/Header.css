@@ -28,22 +28,27 @@ header {
 	left: 1rem;
 	bottom: 3rem;
 }
+.header__socialsicons:hover {
+	transform: scale(1.5);
+}
 .header__socials::after {
 	content: "";
 	width: 1px;
 	height: 2rem;
 	background: var(--color-primary);
 }
+
 /*=========ME===========*/
 .me {
-	background: linear-gradient(var(--color-primary), transparent);
-	width: 22rem;
-	height: 22rem;
+	/* background: linear-gradient(var(--color-primary), transparent); */
+	width: 30rem;
+	height: 30rem;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	margin-top: 4rem;
+	margin-top: 2rem;
 	border-radius: 12rem 12rem 12rem 12rem ;
+	/* border-radius: 50%; */
 	overflow: hidden;
 	padding: 5rem 1.5rem 1.5rem 1.5rem;
 }

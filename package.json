@@ -23,6 +23,7 @@
     "react-tooltip": "^4.5.1",
     "styled-components": "^5.3.6",
     "swiper": "^8.4.5",
+    "TagCloud": "^2.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

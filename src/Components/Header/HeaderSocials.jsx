@@ -9,13 +9,13 @@ const HeaderSocials = () => {
 				href="https://www.linkedin.com/in/anurag-raj-809a82137/"
 				target="_blank"
 			>
-				<BsLinkedin />
+				<BsLinkedin className="header__socialsicons"/>
 			</a>
 			<a href="https://github.com/Anurag8305" target="_blank">
-				<BsGithub />
+				<BsGithub className="header__socialsicons"/>
 			</a>
 			<a href="anuragraj8305@gmail.com" target="_blank">
-				<SiGmail />
+				<SiGmail className="header__socialsicons"/>
 			</a>
 		</div>
 	);

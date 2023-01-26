@@ -5,6 +5,7 @@ import ME from "../../Images/skills1.png";
 import HeaderSocials from "./HeaderSocials";
 import { CiLocationOn } from "react-icons/ci";
 import MovingText from "react-moving-text";
+import TextShpere from "../CloudSphere/Sphere";
 const Header = () => {
 	return (
 		<header id="home" class="nav-link home">
@@ -29,11 +30,9 @@ const Header = () => {
 				<CTA />
 				<HeaderSocials />
 				<div className="me">
-					<img src={ME} alt="" srcset="" />
+					{/* <img src={ME} alt="" srcset="" /> */}
+					<TextShpere />
 				</div>
-				<a href="#contact" className="scroll__down">
-					Scroll Down
-				</a>
 			</div>
 		</header>
 	);
