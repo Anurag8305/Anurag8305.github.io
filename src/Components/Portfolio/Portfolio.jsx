@@ -2,6 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 import project1 from "../../Images/Project1.gif";
 import project2 from "../../Images/Project2.gif";
+import project3 from "../../Images/Project3.PNG";
 const Portfolio = () => {
 	return (
 		<section id="projects">
@@ -62,7 +63,7 @@ const Portfolio = () => {
 				<article className="portfolio__item">
 					<div className="portfolio__item-image">
 						<img
-							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp5MEH_YIiSvs5qoZd2ibCZ5DEujII2TUOgVxxSLzM6yuwxbz1SGs4cazxD3X90pqtP2A&usqp=CAU"
+							src={project3}
 							alt="portfolioproject"
 							srcset=""
 						/>
@@ -70,86 +71,11 @@ const Portfolio = () => {
 					<h3>Anurag's Portfolio</h3>
 					<small>
 						My own Portfolio website to dispaly my skills and achievements.
-						This is a private repository to preserve the code uniqueness.
+						I have taken some references for the designing and UI part from Youtube videos.
 					</small>
-					<h4>Tech-Stacks: HTML | CSS | Javascript</h4>
+					<h4>Tech-Stacks: React | Chakra UI | React-Icons | HTML | CSS</h4>
 					<div className="portfolio__item-cta">
-						<a href="github.com" className="btn" target={"_blank"}>
-							GitHub
-						</a>
-						<a href="netfily.com" className="btn btn-primary" target={"_blank"}>
-							Live Demo
-						</a>
-					</div>
-				</article>
-				<article className="portfolio__item">
-					<div className="portfolio__item-image">
-						<img
-							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp5MEH_YIiSvs5qoZd2ibCZ5DEujII2TUOgVxxSLzM6yuwxbz1SGs4cazxD3X90pqtP2A&usqp=CAU"
-							alt="portfolioproject"
-							srcset=""
-						/>
-					</div>
-					<h3>Title of the project</h3>
-					<small>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-						repudiandae qui perspiciatis fugit suscipit expedita quae
-						repellendus delectus provident saepe, consectetur magnam assumenda
-						quisquam ipsam in doloribus exercitationem nesciunt beatae.
-					</small>
-					<h4>Tech-Stacks: HTML | CSS | Javascript</h4>
-					<div className="portfolio__item-cta">
-						<a href="github.com" className="btn" target={"_blank"}>
-							GitHub
-						</a>
-						<a href="netfily.com" className="btn btn-primary" target={"_blank"}>
-							Live Demo
-						</a>
-					</div>
-				</article>
-				<article className="portfolio__item">
-					<div className="portfolio__item-image">
-						<img
-							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp5MEH_YIiSvs5qoZd2ibCZ5DEujII2TUOgVxxSLzM6yuwxbz1SGs4cazxD3X90pqtP2A&usqp=CAU"
-							alt="portfolioproject"
-							srcset=""
-						/>
-					</div>
-					<h3>Title of the project</h3>
-					<small>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-						repudiandae qui perspiciatis fugit suscipit expedita quae
-						repellendus delectus provident saepe, consectetur magnam assumenda
-						quisquam ipsam in doloribus exercitationem nesciunt beatae.
-					</small>
-					<h4>Tech-Stacks: HTML | CSS | Javascript</h4>
-					<div className="portfolio__item-cta">
-						<a href="github.com" className="btn" target={"_blank"}>
-							GitHub
-						</a>
-						<a href="netfily.com" className="btn btn-primary" target={"_blank"}>
-							Live Demo
-						</a>
-					</div>
-				</article>
-				<article className="portfolio__item">
-					<div className="portfolio__item-image">
-						<img
-							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp5MEH_YIiSvs5qoZd2ibCZ5DEujII2TUOgVxxSLzM6yuwxbz1SGs4cazxD3X90pqtP2A&usqp=CAU"
-							alt="portfolioproject"
-							srcset=""
-						/>
-					</div>
-					<h3>Title of the project</h3>
-					<small>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-						repudiandae qui perspiciatis fugit suscipit expedita quae
-						repellendus delectus provident saepe, consectetur magnam assumenda
-						quisquam ipsam in doloribus exercitationem nesciunt beatae.
-					</small>
-					<h4>Tech-Stacks: HTML | CSS | Javascript</h4>
-					<div className="portfolio__item-cta">
-						<a href="github.com" className="btn" target={"_blank"}>
+						<a href="https://github.com/Anurag8305/Anurag8305.github.io" className="btn" target={"_blank"} rel="noreferrer">
 							GitHub
 						</a>
 						<a href="netfily.com" className="btn btn-primary" target={"_blank"}>
