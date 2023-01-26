@@ -1,0 +1,64 @@
+.wrapperastro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* .top-btnastro img{
+	width: 30%;
+	
+} */
+.top-btnastro {
+	width: 20rem;
+	height: 20rem;
+	position: fixed;
+	bottom: 20rem;
+	right: 0;
+	z-index: 999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	animation: astro 2s linear infinite alternate-reverse;
+}
+@keyframes astro {
+	0% {
+		transform: translateY(-1rem);
+	}
+	100% {
+		transform: translateY(1rem);
+	}
+}
+
+/* MEDIA QUERIES FOR MEDIUM*/
+@media screen and (max-width: 1024px) {
+	.top-btnastro {
+		width: 10rem;
+		height: 10rem;
+		position: fixed;
+		top: 5rem;
+		right: 0;
+		z-index: 999;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		animation: astro 2s linear infinite alternate-reverse;
+	}
+}
+
+/* MEDIA QUERIES FOR SMALL*/
+@media screen and (max-width: 600px) {
+	.top-btnastro {
+		width: 5rem;
+		height: 5rem;
+		position: fixed;
+		top: 5rem;
+		right: 0;
+		z-index: 999;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		animation: astro 2s linear infinite alternate-reverse;
+	}
+}
