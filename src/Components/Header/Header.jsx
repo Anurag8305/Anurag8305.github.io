@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.css";
 import CTA from "./CTA";
-import ME from "../../Images/skills1.png";
+
 import HeaderSocials from "./HeaderSocials";
 import { CiLocationOn } from "react-icons/ci";
 import MovingText from "react-moving-text";
 import TextShpere from "../CloudSphere/Sphere";
 const Header = () => {
+	useEffect(()=>{
+		<TextShpere />
+	},[])
 	return (
 		<header id="home" class="nav-link home">
 			<div className="container header_container">
