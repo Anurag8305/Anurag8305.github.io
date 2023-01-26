@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+
 import "./Header.css";
 import CTA from "./CTA";
 
@@ -6,10 +6,8 @@ import HeaderSocials from "./HeaderSocials";
 import { CiLocationOn } from "react-icons/ci";
 import MovingText from "react-moving-text";
 import TextShpere from "../CloudSphere/Sphere";
+import Sphere1 from "../CloudSphere/Sphere1";
 const Header = () => {
-	useEffect(()=>{
-		<TextShpere />
-	},[])
 	return (
 		<header id="home" class="nav-link home">
 			<div className="container header_container">
@@ -34,7 +32,7 @@ const Header = () => {
 				<HeaderSocials />
 				<div className="me">
 					{/* <img src={ME} alt="" srcset="" /> */}
-					<TextShpere />
+					<Sphere1 />
 				</div>
 			</div>
 		</header>
