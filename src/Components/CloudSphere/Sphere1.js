@@ -6,7 +6,7 @@ const Sphere1 = () => (
 	<TagCloud
 		options={(w: Window & typeof globalThis): TagCloudOptions => ({
 			// radius: Math.min(500, w.innerWidth, w.innerHeight) / 2,
-            radius:220,
+            radius:250,
 			maxSpeed: "fast",
 		})}
 		onClick={(tag: string, ev: MouseEvent) => alert(tag)}
