@@ -9,6 +9,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import Ankesh from "../../Images/Ankesh.jpg";
 const Testimonial = () => {
 	return (
 		<section id="testimonial">
@@ -27,14 +28,16 @@ const Testimonial = () => {
 			>
 				<SwiperSlide className="testimonial">
 					<div className="client__avatar">
-						<img src="" alt="peers_photo" srcset="" />
+						<img src={Ankesh} alt="peers_photo" srcset="" />
 					</div>
-					<h5 className="client__name">Name of the team member</h5>
+					<h5 className="client__name">Ankesh Chopde (Team-Member)</h5>
 					<small className="client__review">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-						voluptatem debitis laudantium officia vero perferendis, quod aliquid
-						dignissimos aliquam, sequi culpa esse iure! Velit ea minima
-						assumenda, excepturi aspernatur pariatur!
+						My overall experience was great. 
+						All were very cooperative but specifically if I
+						say about you then it was very nice to work with you during working
+						on our project. You come up with idea and also you design the logo of
+						our website and you also contributed and give advice and suggestions
+						when someone was in need.
 					</small>
 				</SwiperSlide>
 				<SwiperSlide className="testimonial">

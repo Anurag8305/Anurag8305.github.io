@@ -25,7 +25,7 @@ const Experience = () => {
 			<h5>What Skills I have</h5>
 			<h2>My Experience</h2>
 			<div className="container experience__container">
-				<div className="experience__frontend">
+				<div className="experience__frontend" data-aos="flip-up" data-aos-duration="2000">
 					<h3>Frontend Development</h3>
 					<div className="experience__content">
 						<article className="experience__details">
@@ -58,7 +58,7 @@ const Experience = () => {
 						</article>
 					</div>
 				</div>
-				<div className="experience__backend">
+				<div className="experience__backend" data-aos="flip-up" data-aos-duration="2000">
 					<h3>Backend Development</h3>
 					<div className="experience__content">
 						<article className="experience__details">
@@ -91,7 +91,7 @@ const Experience = () => {
 						</article>
 					</div>
 				</div>
-				<div className="experience_others">
+				<div className="experience_others" data-aos="flip-up" data-aos-duration="2000">
 					<h3>Others</h3>
 					<div className="experience__content">
 						<article className="experience__details">

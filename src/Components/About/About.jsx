@@ -51,7 +51,7 @@ const About = () => {
 							<small>Over 350+ Commits</small>
 						</article>
 					</div>
-					<p data-aos="flip-left">
+					<p data-aos="flip-left" data-aos-duration="3000">
 						Hello! My name is Anurag Raj and I enjoy creating things that live
 						on the internet. I am a passionate Full Stack Web Developer, who is
 						proficient in working with interdisciplinary teams and executing
