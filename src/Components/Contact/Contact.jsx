@@ -29,7 +29,7 @@ const Contact = () => {
 						<MdOutlineMail className="contact__option-icon" />
 						<h4>Email</h4>
 						<h5>anuragraj8305@gmail.com</h5>
-						<a href="mailto:anuragraj8305@gmail.com" target={"_blank"}>
+						<a href="mailto:anuragraj8305@gmail.com"  target={"_blank"} rel="noreferrer">
 							Send a message
 						</a>
 					</article>
@@ -37,7 +37,7 @@ const Contact = () => {
 						<BsGithub className="contact__option-icon" />
 						<h4>GitHub</h4>
 						<h5>Anurag8305</h5>
-						<a href="mailto:anuragraj8305@gmail.com" target={"_blank"}>
+						<a href="https://github.com/Anurag8305" target={"_blank"} rel="noreferrer">
 							Watch me on GitHub
 						</a>
 					</article>
@@ -45,7 +45,7 @@ const Contact = () => {
 						<BsLinkedin className="contact__option-icon" />
 						<h4>LinkedIN</h4>
 						<h5>anuragraj8305@gmail.com</h5>
-						<a href="mailto:anuragraj8305@gmail.com" target={"_blank"}>
+						<a href="https://www.linkedin.com/in/anurag-raj-809a82137/"  target={"_blank"} rel="noreferrer">
 							Connect on LinkedIn
 						</a>
 					</article>
@@ -55,7 +55,7 @@ const Contact = () => {
 						<h5>anuragraj8305@gmail.com</h5>
 						<a
 							href="https://api.whatsapp.com/send?phone=+919471543076"
-							target={"_blank"}
+							target={"_blank"} rel="noreferrer"
 						>
 							Send a message
 						</a>

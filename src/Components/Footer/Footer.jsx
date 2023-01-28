@@ -29,13 +29,13 @@ const Footer = () => {
 				</li>
 			</ul>
 			<div className="footer__socials">
-				<a href="">
+				<a href="https://api.whatsapp.com/send?phone=+919471543076"  target={"_blank"} rel="noreferrer">
 					<BsWhatsapp />
 				</a>
-				<a href="">
+				<a href="https://github.com/Anurag8305"  target={"_blank"} rel="noreferrer">
 					<BsGithub />
 				</a>
-				<a href="">
+				<a href="https://www.linkedin.com/in/anurag-raj-809a82137/" target={"_blank"} rel="noreferrer">
 					<BsLinkedin />
 				</a>
 			</div>

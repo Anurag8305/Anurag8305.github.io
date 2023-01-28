@@ -1,7 +1,7 @@
 import React from "react";
 import "./Testimonial.css";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
-
+import { Navigation, Pagination, Scrollbar, A11y,Autoplay } from "swiper";
+import "swiper/css/autoplay";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -17,9 +17,10 @@ const Testimonial = () => {
 			<h2>Testimonials</h2>
 			<Swiper
 				className="container testimonial__container"
-				modules={[Navigation, Pagination, Scrollbar, A11y]}
+				modules={[Navigation, Pagination, Scrollbar, A11y,Autoplay]}
 				spaceBetween={40}
 				slidesPerView={1}
+				autoplay={{delay:2000}}
 				navigation
 				pagination={{ clickable: true }}
 				scrollbar={{ draggable: true }}

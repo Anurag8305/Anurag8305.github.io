@@ -7,14 +7,14 @@ const HeaderSocials = () => {
 		<div className="header__socials">
 			<a
 				href="https://www.linkedin.com/in/anurag-raj-809a82137/"
-				target="_blank"
+				target={"_blank"} rel="noreferrer"
 			>
 				<BsLinkedin className="header__socialsicons"/>
 			</a>
-			<a href="https://github.com/Anurag8305" target="_blank">
+			<a href="https://github.com/Anurag8305"  target={"_blank"} rel="noreferrer">
 				<BsGithub className="header__socialsicons"/>
 			</a>
-			<a href="anuragraj8305@gmail.com" target="_blank">
+			<a href="mailto:anuragraj8305@gmail.com"  target={"_blank"} rel="noreferrer">
 				<SiGmail className="header__socialsicons"/>
 			</a>
 		</div>

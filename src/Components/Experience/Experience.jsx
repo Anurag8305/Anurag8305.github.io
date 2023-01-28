@@ -19,13 +19,18 @@ import {
 	SiPostman,
 	SiGithubactions,
 } from "react-icons/si";
+import { BsCursorFill } from "react-icons/bs";
 const Experience = () => {
 	return (
 		<section id="skills" className="nav-link skills">
 			<h5>What Skills I have</h5>
 			<h2>My Experience</h2>
 			<div className="container experience__container">
-				<div className="experience__frontend" data-aos="flip-up" data-aos-duration="2000">
+				<div
+					className="experience__frontend"
+					data-aos="flip-up"
+					data-aos-duration="2000"
+				>
 					<h3>Frontend Development</h3>
 					<div className="experience__content">
 						<article className="experience__details">
@@ -58,7 +63,11 @@ const Experience = () => {
 						</article>
 					</div>
 				</div>
-				<div className="experience__backend" data-aos="flip-up" data-aos-duration="2000">
+				<div
+					className="experience__backend"
+					data-aos="flip-up"
+					data-aos-duration="2000"
+				>
 					<h3>Backend Development</h3>
 					<div className="experience__content">
 						<article className="experience__details">
@@ -91,7 +100,11 @@ const Experience = () => {
 						</article>
 					</div>
 				</div>
-				<div className="experience_others" data-aos="flip-up" data-aos-duration="2000">
+				<div
+					className="experience_others"
+					data-aos="flip-up"
+					data-aos-duration="2000"
+				>
 					<h3>Others</h3>
 					<div className="experience__content">
 						<article className="experience__details">
@@ -117,6 +130,33 @@ const Experience = () => {
 						<article className="experience__details">
 							<SiGithubactions className="experience__details-icon" />
 							<h4>GitHuh Actions</h4>
+						</article>
+					</div>
+				</div>
+				<div
+					className="experience_others"
+					data-aos="flip-up"
+					data-aos-duration="2000"
+				>
+					<h3>Soft Skills</h3>
+					<div className="experience__content">
+						<article className="experience__details">
+							Communication & Interpersonal skills
+						</article>
+						<article className="experience__details">
+							Leadership & Management skills
+						</article>
+						<article className="experience__details">
+							Team work
+						</article>
+						<article className="experience__details">
+							Work Ethic
+						</article>
+						<article className="experience__details">
+							Quick & Visual Learner
+						</article>
+						<article className="experience__details">
+							Effective Problem Solver
 						</article>
 					</div>
 				</div>

@@ -39,6 +39,7 @@
 	color: var(--color-primary);
 }
 
+
 /* MEDIA QUERIES FOR MEDIUM*/
 @media screen and (max-width: 1024px) {
 	.experience__container {
