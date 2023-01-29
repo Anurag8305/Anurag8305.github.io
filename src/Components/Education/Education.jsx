@@ -69,7 +69,7 @@ export default function CustomizedTimeline() {
 						<Typography variant="h6" component="span">
 							St. Xavier's College, Ranchi
 						</Typography>
-						<Typography>Geology(Honours),Physics,Chemistry</Typography>
+						{/* <Typography>Geology(Honours),Physics,Chemistry</Typography> */}
 					</TimelineContent>
 				</TimelineItem>
 				<TimelineItem>
@@ -87,9 +87,9 @@ export default function CustomizedTimeline() {
 						<Typography variant="h6" component="span">
 							Tender Heart Sr.Sec.School
 						</Typography>
-						<Typography>
+						{/* <Typography>
 							English, Computer Science, Physics, Chemistry, Biology
-						</Typography>
+						</Typography> */}
 					</TimelineContent>
 				</TimelineItem>
 				<TimelineItem>
@@ -107,9 +107,9 @@ export default function CustomizedTimeline() {
 						<Typography variant="h6" component="span">
 							Tender Heart Sr.Sec.School
 						</Typography>
-						<Typography>
+						{/* <Typography>
 							English, Computer Science, Physics, Chemistry, Biology
-						</Typography>
+						</Typography> */}
 					</TimelineContent>
 				</TimelineItem>
 			</Timeline>

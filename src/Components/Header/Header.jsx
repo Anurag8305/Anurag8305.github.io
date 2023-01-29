@@ -5,7 +5,7 @@ import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
 import { CiLocationOn } from "react-icons/ci";
 import MovingText from "react-moving-text";
-import TextShpere from "../CloudSphere/Sphere";
+
 import Sphere1 from "../CloudSphere/Sphere1";
 const Header = () => {
 	return (

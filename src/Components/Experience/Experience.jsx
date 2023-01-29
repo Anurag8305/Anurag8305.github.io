@@ -9,6 +9,8 @@ import {
 	SiMongodb,
 	SiExpress,
 	SiJava,
+	SiJest,
+	SiCypress,
 	SiIntellijidea,
 	SiMaterialui,
 	SiCanva,
@@ -19,7 +21,12 @@ import {
 	SiPostman,
 	SiGithubactions,
 } from "react-icons/si";
-import { BsCursorFill } from "react-icons/bs";
+import { FaPeopleArrows } from "react-icons/fa";
+import { MdEmojiPeople } from "react-icons/md";
+import { IoIosPeople } from "react-icons/io";
+import { MdMobileOff } from "react-icons/md";
+import { RiLightbulbFlashFill } from "react-icons/ri";
+import { RxMagnifyingGlass } from "react-icons/rx";
 const Experience = () => {
 	return (
 		<section id="skills" className="nav-link skills">
@@ -131,6 +138,14 @@ const Experience = () => {
 							<SiGithubactions className="experience__details-icon" />
 							<h4>GitHuh Actions</h4>
 						</article>
+						<article className="experience__details">
+							<SiCypress className="experience__details-icon" />
+							<h4>Cypress</h4>
+						</article>
+						<article className="experience__details">
+							<SiJest className="experience__details-icon" />
+							<h4>Jest</h4>
+						</article>
 					</div>
 				</div>
 				<div
@@ -141,22 +156,28 @@ const Experience = () => {
 					<h3>Soft Skills</h3>
 					<div className="experience__content">
 						<article className="experience__details">
-							Communication & Interpersonal skills
+						<FaPeopleArrows className="experience__details-icon" />
+							<h4>Communication</h4>
 						</article>
 						<article className="experience__details">
-							Leadership & Management skills
+							<MdEmojiPeople className="experience__details-icon" />
+							<h4>Leadership</h4>
 						</article>
 						<article className="experience__details">
-							Team work
+							<IoIosPeople className="experience__details-icon" />
+							<h4>Team Work</h4>
 						</article>
 						<article className="experience__details">
-							Work Ethic
+							<MdMobileOff className="experience__details-icon" />
+							<h4>Work Ethic</h4>
 						</article>
 						<article className="experience__details">
-							Quick & Visual Learner
+							<RiLightbulbFlashFill className="experience__details-icon" />
+							<h4>Creative</h4>
 						</article>
 						<article className="experience__details">
-							Effective Problem Solver
+							<RxMagnifyingGlass className="experience__details-icon" />
+							<h4>Problem Solver</h4>
 						</article>
 					</div>
 				</div>

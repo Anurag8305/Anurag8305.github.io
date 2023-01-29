@@ -80,4 +80,8 @@ header {
 	.scroll__down {
 		display: none;
 	}
+	.me {
+		width: 25rem;
+		height: 25rem;
+	}
 }

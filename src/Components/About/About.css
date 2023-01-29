@@ -19,7 +19,6 @@
 .about__me-image {
 	border-radius: 2rem;
 	overflow: hidden;
-	
 }
 .about__cards {
 	display: grid;
@@ -73,10 +72,13 @@
 }
 /*=============Small Devices===========*/
 @media screen and (max-width: 600px) {
-	.about__me {
+	.container.about__container {
+		width: var(--container-width-sm);
+	}
+	/* .about__me {
 		width: 65%;
 		margin: 0 auto 3rem;
-	}
+	} */
 	.about__cards {
 		grid-template-columns: 1fr 1fr;
 		gap: 1rem;

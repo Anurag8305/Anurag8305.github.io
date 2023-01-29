@@ -55,9 +55,11 @@
 
 /*=======Small Screens*/
 @media screen and (max-width:600px) {
+	.container.services__container{
+		width: var(--container-width-sm);
+	}
     .services__container{
         grid-template-columns: 1fr;
-        gap: 1.5rem;
     }
     .service{
         height: auto;

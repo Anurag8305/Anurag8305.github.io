@@ -44,3 +44,10 @@ footer a {
 	margin-bottom: 4rem;
 	color: var(--color-bg);
 }
+/* MEDIA QUERIES FOR SMALL*/
+@media screen and (max-width: 600px) {
+	.permalinks{
+		flex-direction: column;
+		gap: 1rem;
+	}
+}

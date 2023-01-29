@@ -1,15 +1,17 @@
 /* MEDIA QUERIES FOR MEDIUM*/
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 	.container__education {
-		width: 90%;
+		width: 70%;
 		margin: auto;
+		font-size: 14px;
 	}
-} */
+}
 
 /* MEDIA QUERIES FOR SMALL*/
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 	.container__education {
-		width: 90%;
+		width: 70%;
 		margin: auto;
+		font-size: 8px;
 	}
-} */
+}

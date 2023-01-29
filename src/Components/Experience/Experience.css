@@ -1,6 +1,6 @@
 .experience__container {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: 1fr 1fr;
 	gap: 2rem;
 }
 .experience__container > div {
@@ -39,7 +39,6 @@
 	color: var(--color-primary);
 }
 
-
 /* MEDIA QUERIES FOR MEDIUM*/
 @media screen and (max-width: 1024px) {
 	.experience__container {
@@ -57,11 +56,14 @@
 
 /* MEDIA QUERIES FOR SMALL*/
 @media screen and (max-width: 600px) {
+	.container.experience__container{
+		width: var(--container-width-sm);
+	}
 	.experience__container {
 		gap: 1rem;
 	}
 	.experience__container > div {
 		width: 100%;
-		padding: ;
+		padding: 2rem 1rem; 
 	}
 }
