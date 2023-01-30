@@ -24,7 +24,11 @@ html {
 	scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
-	display: none;
+	width: 12px;
+}
+::-webkit-scrollbar-thumb{
+	background: linear-gradient(transparent,#f39a9d);
+	border-radius: 6px;
 }
 body {
 	font-family: "Poppins", sans-serif;

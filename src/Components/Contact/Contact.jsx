@@ -79,6 +79,7 @@ const Contact = () => {
 					<button type="submit" className="btn btn-primary">
 						Send Message
 					</button>
+					<h3>Have a project to work on. Let's collaborate</h3>
 				</form>
 			</div>
 		</section>

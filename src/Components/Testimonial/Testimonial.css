@@ -41,3 +41,18 @@
 		width: var(--container-width-sm);
 	}
 }
+/* .swiper {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -150px;
+  }
+  
+  .swiper-slide {
+	background-position: center;
+	background-size: cover;
+  }
+   */

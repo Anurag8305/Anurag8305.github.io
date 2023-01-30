@@ -10,6 +10,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Ankesh from "../../Images/Ankesh.jpg";
+import Altaf from "../../Images/Altaf.png";
+import Prince from "../../Images/Prince.jpeg";
 const Testimonial = () => {
 	return (
 		<section id="testimonial">
@@ -27,11 +29,24 @@ const Testimonial = () => {
 				onSwiper={(swiper) => console.log(swiper)}
 				onSlideChange={() => console.log("slide change")}
 			>
+			<SwiperSlide className="testimonial">
+					<div className="client__avatar">
+						<img src={Prince} alt="peers_photo" srcset="" />
+					</div>
+					<h5 className="client__name">Prince Singh</h5>
+					<small className="client__review">
+					It was great working with Anurag. Found him very supportive, 
+					disciplined, and punctual. In the leadership of Anurag 
+					I was able to complete all my tasks and issues on time. 
+					He use to take the right decision at the right time . would be very
+					happy if i get a change to work with him again
+					</small>
+				</SwiperSlide>
 				<SwiperSlide className="testimonial">
 					<div className="client__avatar">
 						<img src={Ankesh} alt="peers_photo" srcset="" />
 					</div>
-					<h5 className="client__name">Ankesh Chopde (Team-Member)</h5>
+					<h5 className="client__name">Ankesh Chopde</h5>
 					<small className="client__review">
 						My overall experience was great. 
 						All were very cooperative but specifically if I
@@ -43,28 +58,16 @@ const Testimonial = () => {
 				</SwiperSlide>
 				<SwiperSlide className="testimonial">
 					<div className="client__avatar">
-						<img src="" alt="peers_photo" srcset="" />
+						<img src={Altaf} alt="peers_photo" srcset="" />
 					</div>
-					<h5 className="client__name">Name of the team member</h5>
+					<h5 className="client__name">Altaf Khan</h5>
 					<small className="client__review">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-						voluptatem debitis laudantium officia vero perferendis, quod aliquid
-						dignissimos aliquam, sequi culpa esse iure! Velit ea minima
-						assumenda, excepturi aspernatur pariatur!
+					I appreciate your collaboration in construct week project.
+					You did hard work and I am very happy to got team member like you.
+					You did very well. In future projects I would also invite you to make best projects.
 					</small>
 				</SwiperSlide>
-				<SwiperSlide className="testimonial">
-					<div className="client__avatar">
-						<img src="" alt="peers_photo" srcset="" />
-					</div>
-					<h5 className="client__name">Name of the team member</h5>
-					<small className="client__review">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-						voluptatem debitis laudantium officia vero perferendis, quod aliquid
-						dignissimos aliquam, sequi culpa esse iure! Velit ea minima
-						assumenda, excepturi aspernatur pariatur!
-					</small>
-				</SwiperSlide>
+				
 			</Swiper>
 		</section>
 	);

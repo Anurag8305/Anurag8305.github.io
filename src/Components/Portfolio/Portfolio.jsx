@@ -95,7 +95,7 @@ const Portfolio = () => {
 						have taken some references for the designing and UI part from
 						Youtube videos.
 					</small>
-					<h4>Tech-Stacks: React | Chakra UI | React-Icons | HTML | CSS</h4>
+					<h4>Tech-Stacks: React | Chakra UI | React-Icons | HTML | CSS | EmailJS</h4>
 					<div className="portfolio__item-cta">
 						<a
 							href="https://github.com/Anurag8305/Anurag8305.github.io"

@@ -1,4 +1,14 @@
 import React from "react";
+
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import { EffectCoverflow, Pagination,Autoplay } from "swiper";
+import "swiper/css/autoplay";
+
+
 import "./Experience.css";
 import { AiFillHtml5 } from "react-icons/ai";
 import { FaCss3Alt, FaReact, FaGitAlt } from "react-icons/fa";
@@ -33,6 +43,24 @@ const Experience = () => {
 			<h5>What Skills I have</h5>
 			<h2>My Experience</h2>
 			<div className="container experience__container">
+			<Swiper
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination,Autoplay]}
+		autoplay={{delay:2000}}
+        className="mySwiper"
+      >
+	  <SwiperSlide>
 				<div
 					className="experience__frontend"
 					data-aos="flip-up"
@@ -70,6 +98,8 @@ const Experience = () => {
 						</article>
 					</div>
 				</div>
+				</SwiperSlide>
+				<SwiperSlide>
 				<div
 					className="experience__backend"
 					data-aos="flip-up"
@@ -107,6 +137,8 @@ const Experience = () => {
 						</article>
 					</div>
 				</div>
+				</SwiperSlide>
+				<SwiperSlide>
 				<div
 					className="experience_others"
 					data-aos="flip-up"
@@ -148,6 +180,8 @@ const Experience = () => {
 						</article>
 					</div>
 				</div>
+				</SwiperSlide>
+				<SwiperSlide>
 				<div
 					className="experience_others"
 					data-aos="flip-up"
@@ -181,6 +215,13 @@ const Experience = () => {
 						</article>
 					</div>
 				</div>
+				</SwiperSlide>
+
+
+
+				</Swiper>
+
+
 			</div>
 		</section>
 	);
