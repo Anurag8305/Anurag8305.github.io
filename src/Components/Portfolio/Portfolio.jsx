@@ -19,8 +19,7 @@ const Portfolio = () => {
 					</div>
 					<h3>Co-Commerce</h3>
 					<small>
-						A clone of famous LimeRoad website. A group project that is made
-						during the time span of 5 days. Some interesting features of the
+						A clone of famous LimeRoad website. Some interesting features of the
 						website are products page(men's and women's), sorting functionality
 						with price, single product description page, cart functionality,
 						login and signup feature, private routing and admin panel.
@@ -89,13 +88,15 @@ const Portfolio = () => {
 					<div className="portfolio__item-image">
 						<img src={project3} alt="portfolioproject" srcset="" />
 					</div>
-					<h3>Anurag's Portfolio</h3>
+					<h3>Anurag's Galaxia(Portfolio)</h3>
 					<small>
-						My own Portfolio website to dispaly my skills and achievements. I
-						have taken some references for the designing and UI part from
-						Youtube videos.
+						My own Portfolio website to display my skills, projects and achievements.
+						"GALAXY" is the theme of the portfolio. Many exiting inter-galactical
+						elements such as the revolving sphere, astronaut, rocket and the
+						background compliments the theme. Come have a tour of my world.
 					</small>
-					<h4>Tech-Stacks: React | Chakra UI | React-Icons | HTML | CSS | EmailJS</h4>
+					<h4>Tech-Stacks: React | Chakra UI | React-Icons | HTML | 
+					CSS | EmailJS | GitHub Calendar | AOS | React-Tooltip | Swiper</h4>
 					<div className="portfolio__item-cta">
 						<a
 							href="https://github.com/Anurag8305/Anurag8305.github.io"
