@@ -31,12 +31,7 @@ header {
 .header__socialsicons:hover {
 	transform: scale(1.5);
 }
-.header__socials::after {
-	content: "";
-	width: 1px;
-	height: 2rem;
-	background: var(--color-primary);
-}
+
 
 /*=========ME===========*/
 .me {
