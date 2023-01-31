@@ -67,7 +67,7 @@ const About = () => {
 					</div>
 				</div>
 			</div>
-			{/* <h2>Education</h2>
+			<h2>Education</h2>
 			<div className="education">
 				<CustomizedTimeline />
 			</div>
@@ -75,7 +75,7 @@ const About = () => {
 			<div className="container__github">
 				<GithubCalender />
 				<Stats />
-			</div> */}
+			</div>
 		</section>
 	);
 };
