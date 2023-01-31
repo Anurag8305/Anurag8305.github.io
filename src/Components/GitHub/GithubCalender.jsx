@@ -3,12 +3,12 @@ import GitHubCalender from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
 const GithubCalender = () => {
 	return (
-		<section id="statistics" data-aos="flip-left"
-		data-aos-easing="ease-out-cubic"
+		<section id="statistics"
+		data-aos="fade-down"
 		data-aos-duration="2000">
 			<GitHubCalender
 				username="Anurag8305"
-				style={{ margin: "auto", width: "70%", padding: "10px" }}
+				style={{ margin: "auto", width: "60%", padding: "10px" }}
 				blockSize={18}
 				fontSize={12}
 			>
