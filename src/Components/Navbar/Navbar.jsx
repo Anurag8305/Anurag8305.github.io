@@ -8,6 +8,8 @@ import { useState } from "react";
 
 const Navbar = () => {
 	const [activeNav, setActiveNav] = useState("#");
+	const URL =
+		"https://drive.google.com/file/d/14Eevapd093j_Z99KcEJhGimARpqGtVou/view?usp=share_link";
 	return (
 		<nav id="nav-menu">
 			<a
@@ -70,14 +72,8 @@ const Navbar = () => {
 					</div>
 				</div>
 			</a>
-			<a
-				href="https://drive.google.com/file/d/14Eevapd093j_Z99KcEJhGimARpqGtVou/view?usp=share_link"
-				target={"_blank"}
-				download
-			>
-				<button className="btn btn-primary" download>
-					RESUME
-				</button>
+			<a onClick={() => window.open(URL, "_blank")} href={CV} download={CV}>
+				<button className="btn btn-primary">RESUME</button>
 			</a>
 		</nav>
 	);
