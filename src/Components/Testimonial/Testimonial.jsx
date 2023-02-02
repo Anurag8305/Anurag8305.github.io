@@ -39,8 +39,7 @@ const Testimonial = () => {
 						It was great working with Anurag. Found him very supportive,
 						disciplined, and punctual. In the leadership of Anurag I was able to
 						complete all my tasks and issues on time. He use to take the right
-						decision at the right time . would be very happy if i get a change
-						to work with him again
+						decision at the right time.
 					</small>
 				</SwiperSlide>
 				<SwiperSlide className="testimonial">
@@ -49,9 +48,7 @@ const Testimonial = () => {
 					</div>
 					<h5 className="client__name">Ankesh Chopde</h5>
 					<small className="client__review">
-						My overall experience was great. All were very cooperative but
-						specifically if I say about you then it was very nice to work with
-						you during working on our project. You come up with idea and also
+						My overall experience was great. You come up with idea and also
 						you design the logo of our website and you also contributed and give
 						advice and suggestions when someone was in need.
 					</small>
