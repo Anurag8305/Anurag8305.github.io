@@ -95,7 +95,7 @@ const Portfolio = () => {
 						elements such as the revolving sphere, astronaut, rocket and the
 						background compliments the theme. Come have a tour of my world.
 					</small>
-					<h4>Tech-Stacks: React | Chakra UI | React-Icons | HTML | 
+					<h4>Tech-Stacks: React |  React-Icons | HTML | 
 					CSS | EmailJS | GitHub Calendar | AOS | React-Tooltip | Swiper</h4>
 					<div className="portfolio__item-cta">
 						<a
