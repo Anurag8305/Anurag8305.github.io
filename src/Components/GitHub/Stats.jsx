@@ -3,12 +3,7 @@ import React from "react";
 const Stats = () => {
 	return (
 		<div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-			<div
-				style={{ width: "40%", margin: "auto" }}
-				data-aos="flip-left"
-				data-aos-easing="ease-out-cubic"
-				data-aos-duration="2000"
-			>
+			<div style={{ width: "80%", margin: "auto" }} data-aos="flip-left">
 				<a href="https://github.com/Anurag8305">
 					<img
 						align="left"
@@ -20,15 +15,13 @@ const Stats = () => {
 			</div>
 			<div
 				style={{
-					width: "60%",
+					width: "80%",
 					height: "300px",
 					display: "flex",
 					margin: "auto",
 					gap: "20px",
 				}}
 				data-aos="flip-left"
-				data-aos-easing="ease-out-cubic"
-				data-aos-duration="2000"
 			>
 				<a href="https://github.com/Anurag8305">
 					<img

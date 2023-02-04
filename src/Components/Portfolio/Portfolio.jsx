@@ -8,12 +8,8 @@ const Portfolio = () => {
 		<section id="projects">
 			<h5>My Recent Work</h5>
 			<h2>Projects</h2>
-			<div className="container portfolio__container" data-aos="flip-up">
-				<article
-					className="portfolio__item"
-					data-aos="zoom-in"
-					data-aos-duration="2000"
-				>
+			<div className="container portfolio__container">
+				<article className="portfolio__item" data-aos="flip-left">
 					<div className="portfolio__item-image">
 						<img src={project1} alt="portfolioproject" srcset="" />
 					</div>
@@ -44,11 +40,7 @@ const Portfolio = () => {
 						</a>
 					</div>
 				</article>
-				<article
-					className="portfolio__item"
-					data-aos="zoom-in"
-					data-aos-duration="2000"
-				>
+				<article className="portfolio__item" data-aos="flip-left">
 					<div className="portfolio__item-image">
 						<img src={project2} alt="portfolioproject" srcset="" />
 					</div>
@@ -80,23 +72,22 @@ const Portfolio = () => {
 						</a>
 					</div>
 				</article>
-				<article
-					className="portfolio__item"
-					data-aos="zoom-in"
-					data-aos-duration="2000"
-				>
+				<article className="portfolio__item" data-aos="flip-left">
 					<div className="portfolio__item-image">
 						<img src={project3} alt="portfolioproject" srcset="" />
 					</div>
 					<h3>Anurag's Galaxia(Portfolio)</h3>
 					<small>
-						My own Portfolio website to display my skills, projects and achievements.
-						"GALAXY" is the theme of the portfolio. Many exiting inter-galactical
-						elements such as the revolving sphere, astronaut, rocket and the
-						background compliments the theme. Come have a tour of my world.
+						My own Portfolio website to display my skills, projects and
+						achievements. "GALAXY" is the theme of the portfolio. Many exiting
+						inter-galactical elements such as the revolving sphere, astronaut,
+						rocket and the background compliments the theme. Come have a tour of
+						my world.
 					</small>
-					<h4>Tech-Stacks: React |  React-Icons | HTML | 
-					CSS | EmailJS | GitHub Calendar | AOS | React-Tooltip | Swiper</h4>
+					<h4>
+						Tech-Stacks: React | React-Icons | HTML | CSS | EmailJS | GitHub
+						Calendar | AOS | React-Tooltip | Swiper
+					</h4>
 					<div className="portfolio__item-cta">
 						<a
 							href="https://github.com/Anurag8305/Anurag8305.github.io"

@@ -8,7 +8,7 @@ const GithubCalender = () => {
 		data-aos-duration="2000">
 			<GitHubCalender
 				username="Anurag8305"
-				style={{ margin: "auto", width: "60%", padding: "10px" }}
+				style={{ margin: "auto", width: "90%", padding: "10px" }}
 				blockSize={18}
 				fontSize={12}
 			>

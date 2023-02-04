@@ -31,7 +31,6 @@ const Header = () => {
 				<CTA />
 				<HeaderSocials />
 				<div className="me">
-					{/* <img src={ME} alt="" srcset="" /> */}
 					<Sphere1 />
 				</div>
 			</div>

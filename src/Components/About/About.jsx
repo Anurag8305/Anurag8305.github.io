@@ -19,7 +19,7 @@ const About = () => {
 			</h2>
 			<div className="container about__container">
 				<div className="about__content">
-					<div className="about__cards" data-aos="fade-right">
+					<div className="about__cards" data-aos="fade-down">
 						<article className="about__card">
 							<FaAward className="about__icon" />
 							<h5>Coding Experience</h5>
@@ -61,7 +61,7 @@ const About = () => {
 						Grab a cup of Coffee and Chat with Me...
 					</a>
 				</div>
-				<div className="about__me" data-aos="fade-left">
+				<div className="about__me" data-aos="fade-down">
 					<div className="about__me-image">
 						<img src={ME} alt="about me" srcset="" />
 					</div>
