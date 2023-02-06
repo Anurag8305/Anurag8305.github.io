@@ -9,7 +9,11 @@ const Portfolio = () => {
 			<h5>My Recent Work</h5>
 			<h2>Projects</h2>
 			<div className="container portfolio__container">
-				<article className="portfolio__item" data-aos="flip-left">
+				<article
+					className="portfolio__item"
+					data-aos="fade-down"
+					data-aos-duration="1000"
+				>
 					<div className="portfolio__item-image">
 						<img src={project1} alt="portfolioproject" srcset="" />
 					</div>
@@ -40,7 +44,11 @@ const Portfolio = () => {
 						</a>
 					</div>
 				</article>
-				<article className="portfolio__item" data-aos="flip-left">
+				<article
+					className="portfolio__item"
+					data-aos="fade-down"
+					data-aos-duration="1000"
+				>
 					<div className="portfolio__item-image">
 						<img src={project2} alt="portfolioproject" srcset="" />
 					</div>
@@ -72,7 +80,11 @@ const Portfolio = () => {
 						</a>
 					</div>
 				</article>
-				<article className="portfolio__item" data-aos="flip-left">
+				<article
+					className="portfolio__item"
+					data-aos="fade-down"
+					data-aos-duration="1000"
+				>
 					<div className="portfolio__item-image">
 						<img src={project3} alt="portfolioproject" srcset="" />
 					</div>

@@ -3,6 +3,7 @@ import "./Navbar.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { MdContactPhone } from "react-icons/md";
+import { FaCloudDownloadAlt } from "react-icons/fa";
 import CV from "../../Images/Anurag_Raj_Resume.pdf";
 import { useState } from "react";
 
@@ -73,7 +74,12 @@ const Navbar = () => {
 				</div>
 			</a>
 			<a onClick={() => window.open(URL, "_blank")} href={CV} download={CV}>
-				<button className="btn btn-primary">RESUME</button>
+			<div>
+			<div>
+				RESUME
+			</div>
+			<div><FaCloudDownloadAlt /></div>
+			</div>
 			</a>
 		</nav>
 	);
