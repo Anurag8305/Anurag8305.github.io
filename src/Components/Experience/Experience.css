@@ -4,7 +4,8 @@
 	gap: 2rem;
 }
 .experience__container > div {
-	background: var(--color-bg-variant);
+	/* background: var(--color-bg-variant); */
+	backdrop-filter: blur(10px);
 	padding: 2.4rem 5rem;
 	border-radius: 3rem 0 3rem 0;
 	border: 1px solid transparent;
@@ -14,7 +15,7 @@
 }
 .experience__container > div:hover {
 	/* background: transparent; */
-	border-color: var(--color-primary-variant);
+	border-color: #f39a9d;
 	cursor: default;
 }
 .experience__container > div h3 {
