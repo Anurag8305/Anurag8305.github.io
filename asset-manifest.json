@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.870138dc.css",
-    "main.js": "/static/js/main.8b2ca3b9.js",
+    "main.js": "/static/js/main.20a282d7.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Project3.gif": "/static/media/Project3.d5f0de7e3588c471068c.gif",
     "static/media/Project1.gif": "/static/media/Project1.53f4e8051cc07ab1f38f.gif",
+    "static/media/Project4.gif": "/static/media/Project4.c07ec7905063b281b63e.gif",
     "static/media/Project2.gif": "/static/media/Project2.c9e09a526268b697c0d6.gif",
-    "static/media/Project3.PNG": "/static/media/Project3.df2d5ee6106436199117.PNG",
     "static/media/wallpaperflare.com_wallpaper.jpg": "/static/media/wallpaperflare.com_wallpaper.ecce17214de8e1194ac9.jpg",
     "static/media/Anurag_Raj_Resume.pdf": "/static/media/Anurag_Raj_Resume.26790e3239b3b44e6399.pdf",
     "static/media/profile.png": "/static/media/profile.a7abf26d2c941149662f.png",
@@ -16,11 +17,11 @@
     "static/media/Ankesh.jpg": "/static/media/Ankesh.103175d12bb506bd6be3.jpg",
     "index.html": "/index.html",
     "main.870138dc.css.map": "/static/css/main.870138dc.css.map",
-    "main.8b2ca3b9.js.map": "/static/js/main.8b2ca3b9.js.map",
+    "main.20a282d7.js.map": "/static/js/main.20a282d7.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.870138dc.css",
-    "static/js/main.8b2ca3b9.js"
+    "static/js/main.20a282d7.js"
   ]
 }
