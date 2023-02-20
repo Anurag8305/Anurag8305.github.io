@@ -55,7 +55,9 @@ const About = () => {
 						Hello! My name is Anurag Raj and I enjoy creating things that live
 						on the internet. I am a passionate Full Stack Web Developer, who is
 						proficient in working with interdisciplinary teams and executing
-						goal-oriented projects.
+						goal-oriented projects. I come along with strong administrative 
+						and communication skills, good attention to details and the ability
+						to write clean,efficient and production ready code.
 					</p>
 					<a href="#contact" className="btn btn-primary">
 						Grab a cup of Coffee and Chat with Me...
