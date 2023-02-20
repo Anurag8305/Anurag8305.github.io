@@ -6,7 +6,7 @@ const CTA = () => {
 	return (
 		<div className="cta">
 			<a onClick={() => window.open(URL, "_blank")} href={CV} download={CV} className="btn btn-primary" rel="noreferrer">
-				Download CV
+				Download Resume
 			</a>
 			{/* <a href="#contact" className="btn btn-primary">
 				Scroll Down To view More

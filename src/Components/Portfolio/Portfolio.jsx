@@ -2,7 +2,8 @@ import React from "react";
 import "./Portfolio.css";
 import project1 from "../../Images/Project1.gif";
 import project2 from "../../Images/Project2.gif";
-import project3 from "../../Images/Project3.PNG";
+import project3 from "../../Images/Project3.gif";
+import project4 from "../../Images/Project4.gif";
 const Portfolio = () => {
 	return (
 		<section id="projects">
@@ -50,20 +51,19 @@ const Portfolio = () => {
 					data-aos-duration="1000"
 				>
 					<div className="portfolio__item-image">
-						<img src={project2} alt="portfolioproject" srcset="" />
+						<img src={project4} alt="portfolioproject" srcset="" />
 					</div>
-					<h3>FitBuddies</h3>
+					<h3>FullStack Mini Project</h3>
 					<small>
-						A clone of famous MyFitnessPal webiste that tracks diet and
-						exercise. A group project that is made during the time span of 5
-						days. A online platform which helps you to keep and track your
-						workout data online. You can add there your daily workout activity
-						such as type of exercise and calorie intake.
+						A complete Full Stack Mini project that I have built using 
+						React and Chakra UI in frontend and NodeJS, Express, Mongoose and MongoAtlas.
+						Features- Login,SignUp, Create Notes, view other user's notes and delete and
+						update  your notes.
 					</small>
-					<h4>Tech-Stacks: HTML | CSS | Javascript | JSON-Server</h4>
+					<h4>Tech-Stacks: React | Chakra UI | NodeJS | Mongoose | MongoAtlas | Express</h4>
 					<div className="portfolio__item-cta">
 						<a
-							href="https://github.com/eraltafs/eager-structure-3963"
+							href="https://github.com/Anurag8305/MiniFullStackProject"
 							className="btn"
 							target={"_blank"}
 							rel="noreferrer"
@@ -71,7 +71,7 @@ const Portfolio = () => {
 							GitHub
 						</a>
 						<a
-							href="https://dulcet-concha-b9f61c.netlify.app"
+							href="https://mernstack-zeta.vercel.app/"
 							className="btn btn-primary"
 							target={"_blank"}
 							rel="noreferrer"
@@ -110,6 +110,42 @@ const Portfolio = () => {
 							GitHub
 						</a>
 						<a href="netfily.com" className="btn btn-primary" target={"_blank"}>
+							Live Demo
+						</a>
+					</div>
+				</article>
+				<article
+					className="portfolio__item"
+					data-aos="fade-down"
+					data-aos-duration="1000"
+				>
+					<div className="portfolio__item-image">
+						<img src={project2} alt="portfolioproject" srcset="" />
+					</div>
+					<h3>FitBuddies</h3>
+					<small>
+						A clone of famous MyFitnessPal webiste that tracks diet and
+						exercise. A group project that is made during the time span of 5
+						days. A online platform which helps you to keep and track your
+						workout data online. You can add there your daily workout activity
+						such as type of exercise and calorie intake.
+					</small>
+					<h4>Tech-Stacks: HTML | CSS | Javascript | JSON-Server</h4>
+					<div className="portfolio__item-cta">
+						<a
+							href="https://github.com/eraltafs/eager-structure-3963"
+							className="btn"
+							target={"_blank"}
+							rel="noreferrer"
+						>
+							GitHub
+						</a>
+						<a
+							href="https://dulcet-concha-b9f61c.netlify.app"
+							className="btn btn-primary"
+							target={"_blank"}
+							rel="noreferrer"
+						>
 							Live Demo
 						</a>
 					</div>

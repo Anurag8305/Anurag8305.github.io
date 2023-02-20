@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import { MdOutlineMail } from "react-icons/md";
-import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsWhatsapp,BsTelephoneInboundFill } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 
@@ -44,7 +44,7 @@ const Contact = () => {
 					<article className="contact__option">
 						<BsLinkedin className="contact__option-icon" />
 						<h4>LinkedIN</h4>
-						<h5>anuragraj8305@gmail.com</h5>
+						<h5>Anurag Raj</h5>
 						<a href="https://www.linkedin.com/in/anurag-raj-809a82137/"  target={"_blank"} rel="noreferrer">
 							Connect on LinkedIn
 						</a>
@@ -52,12 +52,23 @@ const Contact = () => {
 					<article className="contact__option">
 						<BsWhatsapp className="contact__option-icon" />
 						<h4>WhatsApp</h4>
-						<h5>anuragraj8305@gmail.com</h5>
+						<h5>+91 9471543076</h5>
 						<a
 							href="https://api.whatsapp.com/send?phone=+919471543076"
 							target={"_blank"} rel="noreferrer"
 						>
 							Send a message
+						</a>
+					</article>
+					<article className="contact__option">
+						<BsTelephoneInboundFill className="contact__option-icon" />
+						<h4>Contact Number</h4>
+						<h5>+91 9471543076</h5>
+						<a
+							href="https://api.whatsapp.com/send?phone=+919471543076"
+							target={"_blank"} rel="noreferrer"
+						>
+							Call Me
 						</a>
 					</article>
 				</div>
@@ -72,7 +83,7 @@ const Contact = () => {
 					<textarea
 						name="message"
 						id=""
-						rows="7"
+						rows="25"
 						placeholder="Your Message"
 						required
 					></textarea>

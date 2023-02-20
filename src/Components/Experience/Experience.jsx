@@ -24,6 +24,7 @@ import {
 	SiIntellijidea,
 	SiMaterialui,
 	SiCanva,
+	SiVisualstudiocode,
 	SiNetlify,
 	SiVercel,
 	SiNpm,
@@ -128,6 +129,10 @@ const Experience = () => {
 							<h4>Git</h4>
 						</article>
 						<article className="experience__details">
+							<SiGithubactions className="experience__details-icon" />
+							<h4>GitHuh Actions</h4>
+						</article>
+						<article className="experience__details">
 							<SiNpm className="experience__details-icon" />
 							<h4>NPM</h4>
 						</article>
@@ -144,11 +149,15 @@ const Experience = () => {
 					data-aos="flip-up"
 					data-aos-duration="2000"
 				>
-					<h3>Others</h3>
+					<h3>Tools</h3>
 					<div className="experience__content">
 						<article className="experience__details">
 							<SiIntellijidea className="experience__details-icon" />
 							<h4>IntelliJ</h4>
+						</article>
+						<article className="experience__details">
+							<SiVisualstudiocode className="experience__details-icon" />
+							<h4>VS-Code</h4>
 						</article>
 						<article className="experience__details">
 							<SiCanva className="experience__details-icon" />
@@ -165,10 +174,6 @@ const Experience = () => {
 						<article className="experience__details">
 							<SiHeroku className="experience__details-icon" />
 							<h4>Heroku</h4>
-						</article>
-						<article className="experience__details">
-							<SiGithubactions className="experience__details-icon" />
-							<h4>GitHuh Actions</h4>
 						</article>
 						<article className="experience__details">
 							<SiCypress className="experience__details-icon" />
