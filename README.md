@@ -8,6 +8,7 @@ Deployed Link: https://anurag8305.github.io/
 # Home Section
 <img src="https://user-images.githubusercontent.com/106643486/221365065-e6e498e5-0b22-4af5-93d0-646b3d3464a9.png" />
 # About Section
+
 <img src="https://user-images.githubusercontent.com/106643486/221364702-21ac06a2-e340-4325-9e7e-cf273edbca2f.png" />
 
 # Education Section
