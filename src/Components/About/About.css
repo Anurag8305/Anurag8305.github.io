@@ -7,17 +7,18 @@
 	width: 100%;
 	aspect-ratio: 1/1;
 	border-radius: 50%;
-	background: linear-gradient(
+	/* background: linear-gradient(
 		45deg,
 		transparent,
 		var(--color-primary),
 		transparent
-	);
+	); */
 	display: grid;
 	place-items: center;
 }
 .about__me-image {
 	border-radius: 2rem;
+	margin-top: 4rem;
 	overflow: hidden;
 }
 .about__cards {
@@ -65,6 +66,10 @@
 	.about__me {
 		width: 50%;
 		margin: 2rem auto 4rem;
+	}
+	.about__me-image {
+		width: 80%;
+		overflow: hidden;
 	}
 	.about__content p {
 		margin: 1rem 0 1.5rem;

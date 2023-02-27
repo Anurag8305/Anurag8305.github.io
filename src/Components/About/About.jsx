@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import ME from "../../Images/profile.png";
+import ME from "../../Images/img954 (2).png";
 import { FaAward, FaDatabase, FaGithub } from "react-icons/fa";
 import { BiCodeAlt } from "react-icons/bi";
 import { SiMusicbrainz } from "react-icons/si";
@@ -12,7 +12,8 @@ import Stats from "../GitHub/Stats";
 
 const About = () => {
 	return (
-		<section id="about" class="about section nav-link about">
+		
+		<section>
 			<h5>Get To Know </h5>
 			<h2>
 				About Me <GiFeather fontSize={"30px"} />
@@ -79,6 +80,7 @@ const About = () => {
 				<Stats />
 			</div>
 		</section>
+		
 	);
 };
 

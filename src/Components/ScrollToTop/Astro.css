@@ -13,7 +13,7 @@
 	position: fixed;
 	bottom: 20rem;
 	right: 0;
-	z-index: 999;
+	z-index: -1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -37,7 +37,6 @@
 		position: fixed;
 		top: 5rem;
 		right: 0;
-		z-index: 999;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -54,7 +53,6 @@
 		position: fixed;
 		top: 5rem;
 		right: 0;
-		z-index: 999;
 		display: flex;
 		justify-content: center;
 		align-items: center;

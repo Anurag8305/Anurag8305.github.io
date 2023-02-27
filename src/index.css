@@ -26,8 +26,8 @@ html {
 ::-webkit-scrollbar {
 	width: 12px;
 }
-::-webkit-scrollbar-thumb{
-	background: linear-gradient(transparent,#f39a9d);
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(transparent, #f39a9d);
 	border-radius: 6px;
 }
 body {

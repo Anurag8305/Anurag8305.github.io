@@ -4,12 +4,49 @@ import project1 from "../../Images/Project1.gif";
 import project2 from "../../Images/Project2.gif";
 import project3 from "../../Images/Project3.gif";
 import project4 from "../../Images/Project4.gif";
+import mern from "../../Images/MERN.gif";
+
 const Portfolio = () => {
 	return (
 		<section id="projects">
 			<h5>My Recent Work</h5>
 			<h2>Projects</h2>
 			<div className="container portfolio__container">
+			<article
+					className="portfolio__item"
+					data-aos="fade-down"
+					data-aos-duration="1000"
+				>
+					<div className="portfolio__item-image">
+						<img src={mern} alt="portfolioproject" srcset="" />
+					</div>
+					<h3>Lap-Den</h3>
+					<small>
+						Lap-Den is Dell Technologies' official clone website where 
+						customers can buy from a wide range of products, access support resources,
+						 and get the latest news and insights on technology and business. It is a
+						 collaborative project built in 5 days using MERN stack. 
+					</small>
+					<h4>Tech-Stacks: React | Chakra UI | Redux | Node | Express | Mongo</h4>
+					<div className="portfolio__item-cta">
+						<a
+							href="https://github.com/abhayfaldu/faded-kick-2555"
+							className="btn"
+							target={"_blank"}
+							rel="noreferrer"
+						>
+							GitHub
+						</a>
+						<a
+							href="https://faded-kick-2555-jd4p.vercel.app/"
+							className="btn btn-primary"
+							target={"_blank"}
+							rel="noreferrer"
+						>
+							Live Demo
+						</a>
+					</div>
+				</article>
 				<article
 					className="portfolio__item"
 					data-aos="fade-down"
@@ -141,7 +178,7 @@ const Portfolio = () => {
 							GitHub
 						</a>
 						<a
-							href="https://dulcet-concha-b9f61c.netlify.app"
+							href="https://fitbuddies.vercel.app/"
 							className="btn btn-primary"
 							target={"_blank"}
 							rel="noreferrer"
