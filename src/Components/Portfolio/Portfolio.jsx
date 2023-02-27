@@ -146,7 +146,7 @@ const Portfolio = () => {
 						>
 							GitHub
 						</a>
-						<a href="netfily.com" className="btn btn-primary" target={"_blank"}>
+						<a href="https://anurag8305.github.io/" className="btn btn-primary" target={"_blank"}>
 							Live Demo
 						</a>
 					</div>
