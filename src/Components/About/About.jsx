@@ -70,10 +70,10 @@ const About = () => {
 					</div>
 				</div>
 			</div>
-			<h2>Education</h2>
-			<div className="education">
+			{/* <h2>Education</h2>
+			 <div className="education">
 				<CustomizedTimeline />
-			</div>
+			</div>  */}
 			<h2>GitHub Statistics</h2>
 			<div className="container__github">
 				<GithubCalender />

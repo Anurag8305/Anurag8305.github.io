@@ -23,11 +23,11 @@ export default function CustomizedTimeline() {
 						7 Months Long 11-11-6 Curriculum
 					</TimelineOppositeContent>
 					<TimelineSeparator>
-						<TimelineConnector />
+						{/* <TimelineConnector /> */}
 						<TimelineDot>
 							<SchoolIcon />
 						</TimelineDot>
-						<TimelineConnector />
+						{/* <TimelineConnector /> */}
 					</TimelineSeparator>
 					<TimelineContent sx={{ py: "12px", px: 2 }}>
 						<Typography variant="h6" component="span">
@@ -41,11 +41,11 @@ export default function CustomizedTimeline() {
 						Master of Science
 					</TimelineOppositeContent>
 					<TimelineSeparator>
-						<TimelineConnector />
+						{/* <TimelineConnector /> */}
 						<TimelineDot color="primary">
 							<SchoolIcon />
 						</TimelineDot>
-						<TimelineConnector />
+						{/* <TimelineConnector /> */}
 					</TimelineSeparator>
 					<TimelineContent sx={{ py: "12px", px: 2 }}>
 						<Typography variant="h6" component="span">
@@ -59,7 +59,7 @@ export default function CustomizedTimeline() {
 						Bachelor of Science
 					</TimelineOppositeContent>
 					<TimelineSeparator>
-						<TimelineConnector />
+						{/* <TimelineConnector /> */}
 						<TimelineDot color="primary" variant="outlined">
 							<SchoolIcon />
 						</TimelineDot>
@@ -81,7 +81,7 @@ export default function CustomizedTimeline() {
 						<TimelineDot color="secondary">
 							<SchoolIcon />
 						</TimelineDot>
-						<TimelineConnector />
+						{/* <TimelineConnector /> */}
 					</TimelineSeparator>
 					<TimelineContent sx={{ py: "12px", px: 2 }}>
 						<Typography variant="h6" component="span">
@@ -101,7 +101,7 @@ export default function CustomizedTimeline() {
 						<TimelineDot color="secondary">
 							<SchoolIcon />
 						</TimelineDot>
-						<TimelineConnector />
+						{/* <TimelineConnector /> */}
 					</TimelineSeparator>
 					<TimelineContent sx={{ py: "12px", px: 2 }}>
 						<Typography variant="h6" component="span">
